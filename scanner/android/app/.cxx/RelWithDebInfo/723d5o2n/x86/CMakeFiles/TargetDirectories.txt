@@ -1,0 +1,3 @@
+C:/Users/kadon/Programming/qr-code-scanner/scanner/android/app/.cxx/RelWithDebInfo/723d5o2n/x86/CMakeFiles/api.dir
+C:/Users/kadon/Programming/qr-code-scanner/scanner/android/app/.cxx/RelWithDebInfo/723d5o2n/x86/CMakeFiles/edit_cache.dir
+C:/Users/kadon/Programming/qr-code-scanner/scanner/android/app/.cxx/RelWithDebInfo/723d5o2n/x86/CMakeFiles/rebuild_cache.dir
