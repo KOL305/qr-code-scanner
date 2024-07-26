@@ -38,7 +38,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "api::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-api-Debug-974ceb732164784399ae.json",
+					"jsonFile" : "target-api-Debug-f077e33dcd4016b6f0ea.json",
 					"name" : "api",
 					"projectIndex" : 0
 				}
@@ -48,7 +48,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/kadon/Programming/qr-code-scanner/scanner/android/app/.cxx/Debug/24j5j363/x86",
+		"build" : "C:/Users/kadon/Programming/qr-code-scanner/scanner/android/app/.cxx/Debug/24j5j363/armeabi-v7a",
 		"source" : "C:/Users/kadon/Programming/qr-code-scanner/scanner/libs"
 	},
 	"version" : 

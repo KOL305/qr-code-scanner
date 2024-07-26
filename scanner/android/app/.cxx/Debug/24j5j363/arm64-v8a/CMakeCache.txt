@@ -164,7 +164,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=api_gmp
+CMAKE_PROJECT_NAME:STATIC=api
 
 //Ranlib
 CMAKE_RANLIB:FILEPATH=C:/Users/kadon/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/bin/llvm-ranlib.exe

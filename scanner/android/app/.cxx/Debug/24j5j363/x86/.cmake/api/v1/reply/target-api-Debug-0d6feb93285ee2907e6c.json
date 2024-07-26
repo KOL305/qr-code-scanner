@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "C:/Users/kadon/Programming/qr-code-scanner/scanner/build/app/intermediates/cxx/Debug/24j5j363/obj/arm64-v8a/libapi.so"
+			"path" : "C:/Users/kadon/Programming/qr-code-scanner/scanner/build/app/intermediates/cxx/Debug/24j5j363/obj/x86/libapi.so"
 		}
 	],
 	"backtrace" : 1,
@@ -10,8 +10,7 @@
 	{
 		"commands" : 
 		[
-			"add_library",
-			"include_directories"
+			"add_library"
 		],
 		"files" : 
 		[
@@ -27,12 +26,6 @@
 				"file" : 0,
 				"line" : 7,
 				"parent" : 0
-			},
-			{
-				"command" : 1,
-				"file" : 0,
-				"line" : 19,
-				"parent" : 0
 			}
 		]
 	},
@@ -42,20 +35,13 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC"
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC"
 				}
 			],
 			"defines" : 
 			[
 				{
 					"define" : "api_EXPORTS"
-				}
-			],
-			"includes" : 
-			[
-				{
-					"backtrace" : 2,
-					"path" : "/c/Users/kadon/Programming/libs/gmp/include"
 				}
 			],
 			"language" : "CXX",

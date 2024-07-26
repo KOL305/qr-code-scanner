@@ -911,7 +911,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "api_gmp"
+			"value" : "api"
 		},
 		{
 			"name" : "CMAKE_RANLIB",

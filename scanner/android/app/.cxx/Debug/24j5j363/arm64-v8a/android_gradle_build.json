@@ -23,13 +23,6 @@
       "artifactName": "api",
       "output": "C:\\Users\\kadon\\Programming\\qr-code-scanner\\scanner\\build\\app\\intermediates\\cxx\\Debug\\24j5j363\\obj\\arm64-v8a\\libapi.so",
       "runtimeFiles": []
-    },
-    "api_gmp::@6890427a1f51a3e7e1df": {
-      "toolchain": "toolchain",
-      "abi": "arm64-v8a",
-      "artifactName": "api_gmp",
-      "output": "C:\\Users\\kadon\\Programming\\qr-code-scanner\\scanner\\build\\app\\intermediates\\cxx\\Debug\\24j5j363\\obj\\arm64-v8a\\libapi_gmp.so",
-      "runtimeFiles": []
     }
   },
   "toolchains": {
