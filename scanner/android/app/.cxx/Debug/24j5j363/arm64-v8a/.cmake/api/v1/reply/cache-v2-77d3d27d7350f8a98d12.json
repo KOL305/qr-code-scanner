@@ -911,7 +911,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "api"
+			"value" : "api_gmp"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1243,6 +1243,42 @@
 		},
 		{
 			"name" : "api_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/kadon/Programming/qr-code-scanner/scanner/libs"
+		},
+		{
+			"name" : "api_gmp_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/kadon/Programming/qr-code-scanner/scanner/android/app/.cxx/Debug/24j5j363/arm64-v8a"
+		},
+		{
+			"name" : "api_gmp_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;/c/Users/kadon/Programming/libs/gmp/lib/libgmp.a;"
+		},
+		{
+			"name" : "api_gmp_SOURCE_DIR",
 			"properties" : 
 			[
 				{

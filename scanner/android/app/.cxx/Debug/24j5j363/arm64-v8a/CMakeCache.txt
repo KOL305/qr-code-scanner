@@ -164,7 +164,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=api
+CMAKE_PROJECT_NAME:STATIC=api_gmp
 
 //Ranlib
 CMAKE_RANLIB:FILEPATH=C:/Users/kadon/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/bin/llvm-ranlib.exe
@@ -244,6 +244,15 @@ api_BINARY_DIR:STATIC=C:/Users/kadon/Programming/qr-code-scanner/scanner/android
 
 //Value Computed by CMake
 api_SOURCE_DIR:STATIC=C:/Users/kadon/Programming/qr-code-scanner/scanner/libs
+
+//Value Computed by CMake
+api_gmp_BINARY_DIR:STATIC=C:/Users/kadon/Programming/qr-code-scanner/scanner/android/app/.cxx/Debug/24j5j363/arm64-v8a
+
+//Dependencies for the target
+api_gmp_LIB_DEPENDS:STATIC=general;/c/Users/kadon/Programming/libs/gmp/lib/libgmp.a;
+
+//Value Computed by CMake
+api_gmp_SOURCE_DIR:STATIC=C:/Users/kadon/Programming/qr-code-scanner/scanner/libs
 
 
 ########################

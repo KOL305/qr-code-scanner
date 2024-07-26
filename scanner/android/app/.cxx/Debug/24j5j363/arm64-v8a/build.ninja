@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: api
+# Project: api_gmp
 # Configurations: Debug
 # =============================================================================
 
@@ -47,6 +47,7 @@ build CMakeFiles/api.dir/api.cpp.o: CXX_COMPILER__api_Debug C$:/Users/kadon/Prog
   DEFINES = -Dapi_EXPORTS
   DEP_FILE = CMakeFiles\api.dir\api.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC
+  INCLUDES = -I/c/Users/kadon/Programming/libs/gmp/include
   OBJECT_DIR = CMakeFiles\api.dir
   OBJECT_FILE_DIR = CMakeFiles\api.dir
 
@@ -81,6 +82,43 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
 
 build edit_cache: phony CMakeFiles/edit_cache.util
 
+# =============================================================================
+# Object build statements for SHARED_LIBRARY target api_gmp
+
+
+#############################################
+# Order-only phony target for api_gmp
+
+build cmake_object_order_depends_target_api_gmp: phony || CMakeFiles/api_gmp.dir
+
+build CMakeFiles/api_gmp.dir/api_gmp.cpp.o: CXX_COMPILER__api_gmp_Debug C$:/Users/kadon/Programming/qr-code-scanner/scanner/libs/api_gmp.cpp || cmake_object_order_depends_target_api_gmp
+  DEFINES = -Dapi_gmp_EXPORTS
+  DEP_FILE = CMakeFiles\api_gmp.dir\api_gmp.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC
+  INCLUDES = -I/c/Users/kadon/Programming/libs/gmp/include
+  OBJECT_DIR = CMakeFiles\api_gmp.dir
+  OBJECT_FILE_DIR = CMakeFiles\api_gmp.dir
+
+
+# =============================================================================
+# Link build statements for SHARED_LIBRARY target api_gmp
+
+
+#############################################
+# Link the shared library C:\Users\kadon\Programming\qr-code-scanner\scanner\build\app\intermediates\cxx\Debug\24j5j363\obj\arm64-v8a\libapi_gmp.so
+
+build C$:/Users/kadon/Programming/qr-code-scanner/scanner/build/app/intermediates/cxx/Debug/24j5j363/obj/arm64-v8a/libapi_gmp.so: CXX_SHARED_LIBRARY_LINKER__api_gmp_Debug CMakeFiles/api_gmp.dir/api_gmp.cpp.o | /c/Users/kadon/Programming/libs/gmp/lib/libgmp.a
+  LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info
+  LINK_FLAGS = -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments
+  LINK_LIBRARIES = /c/Users/kadon/Programming/libs/gmp/lib/libgmp.a  -latomic -lm
+  OBJECT_DIR = CMakeFiles\api_gmp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  SONAME = libapi_gmp.so
+  SONAME_FLAG = -Wl,-soname,
+  TARGET_FILE = C:\Users\kadon\Programming\qr-code-scanner\scanner\build\app\intermediates\cxx\Debug\24j5j363\obj\arm64-v8a\libapi_gmp.so
+  TARGET_PDB = api_gmp.so.dbg
+
 
 #############################################
 # Utility command for rebuild_cache
@@ -98,7 +136,11 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build api: phony C$:/Users/kadon/Programming/qr-code-scanner/scanner/build/app/intermediates/cxx/Debug/24j5j363/obj/arm64-v8a/libapi.so
 
+build api_gmp: phony C$:/Users/kadon/Programming/qr-code-scanner/scanner/build/app/intermediates/cxx/Debug/24j5j363/obj/arm64-v8a/libapi_gmp.so
+
 build libapi.so: phony C$:/Users/kadon/Programming/qr-code-scanner/scanner/build/app/intermediates/cxx/Debug/24j5j363/obj/arm64-v8a/libapi.so
+
+build libapi_gmp.so: phony C$:/Users/kadon/Programming/qr-code-scanner/scanner/build/app/intermediates/cxx/Debug/24j5j363/obj/arm64-v8a/libapi_gmp.so
 
 # =============================================================================
 # Folder targets.
@@ -108,12 +150,7 @@ build libapi.so: phony C$:/Users/kadon/Programming/qr-code-scanner/scanner/build
 #############################################
 # Folder: C:/Users/kadon/Programming/qr-code-scanner/scanner/android/app/.cxx/Debug/24j5j363/arm64-v8a
 
-build all: phony C$:/Users/kadon/Programming/qr-code-scanner/scanner/build/app/intermediates/cxx/Debug/24j5j363/obj/arm64-v8a/libapi.so
-
-# =============================================================================
-# Unknown Build Time Dependencies.
-# Tell Ninja that they may appear as side effects of build rules
-# otherwise ordered by order-only dependencies.
+build all: phony C$:/Users/kadon/Programming/qr-code-scanner/scanner/build/app/intermediates/cxx/Debug/24j5j363/obj/arm64-v8a/libapi.so C$:/Users/kadon/Programming/qr-code-scanner/scanner/build/app/intermediates/cxx/Debug/24j5j363/obj/arm64-v8a/libapi_gmp.so
 
 # =============================================================================
 # Built-in targets

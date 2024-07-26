@@ -14,7 +14,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -26,10 +27,11 @@
 					[
 						0
 					],
-					"name" : "api",
+					"name" : "api_gmp",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -38,8 +40,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "api::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-api-Debug-be28c5b6fcac73b106b2.json",
+					"jsonFile" : "target-api-Debug-95634bc2c47712cb81ee.json",
 					"name" : "api",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "api_gmp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-api_gmp-Debug-47f5c7ff6aeddc6e04d0.json",
+					"name" : "api_gmp",
 					"projectIndex" : 0
 				}
 			]

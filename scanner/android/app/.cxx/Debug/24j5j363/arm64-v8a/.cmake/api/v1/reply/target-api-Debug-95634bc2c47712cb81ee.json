@@ -10,7 +10,8 @@
 	{
 		"commands" : 
 		[
-			"add_library"
+			"add_library",
+			"include_directories"
 		],
 		"files" : 
 		[
@@ -24,7 +25,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 3,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 19,
 				"parent" : 0
 			}
 		]
@@ -42,6 +49,13 @@
 			[
 				{
 					"define" : "api_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/c/Users/kadon/Programming/libs/gmp/include"
 				}
 			],
 			"language" : "CXX",
