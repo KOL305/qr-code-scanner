@@ -1,3 +1,6 @@
 # ninja log v5
 0	188	743369165	CMakeFiles/api.dir/api.cpp.o	9504311c75b0c6d5
 190	364	743369165	C:/Users/kadon/Programming/qr-code-scanner/scanner/build/app/intermediates/cxx/Debug/24j5j363/obj/armeabi-v7a/libapi.so	ee1330cc7b8a26be
+2	457	744942481	build.ninja	d65596ed4a1be763
+5	255	744942482	CMakeFiles/api.dir/api.cpp.o	9504311c75b0c6d5
+256	522	744942482	C:/Users/kadon/Programming/qr-code-scanner/scanner/build/app/intermediates/cxx/Debug/24j5j363/obj/armeabi-v7a/libapi.so	ee1330cc7b8a26be
